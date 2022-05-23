@@ -1,0 +1,29 @@
+.top {
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    transform: translate(-50%,0);
+    width: 70%;
+    height: 30%;
+    border: 2px solid black;
+}
+.center {
+    position: absolute;
+    left: 50%;
+    top: calc(30% + 10px);
+    transform: translate(-50%,0);
+    width: 70%;
+    height: 1000px;
+    border: 2px solid black;
+    
+}
+.footer {
+    position: absolute;
+    left: 50%;
+    top: calc(30% + 1000px + 10px + 10px);
+    transform: translate(-50%,0);
+    width: 70%;
+    height: 30%;
+    border: 2px solid black;
+    
+}
