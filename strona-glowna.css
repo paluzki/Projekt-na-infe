@@ -1,3 +1,6 @@
+body {
+    font: 18px/1.5em "Segoe UI",sans-serif;
+}
 .top {
     top: 10px;
     height: 30%;
@@ -19,4 +22,52 @@
     transform: translate(-50%,0);
     left: 50%;
     width: 70%;
+}
+#tytul {
+    position: relative;
+    transform: translate(-50%,0);
+    left: 50%;
+    height: 50%;
+    width: 100%;
+}
+#powitajlo {
+    position: absolute;
+    transform: translate(-50%,0);
+    top: 50%;
+    left: 50%;
+    width: fit-content;
+    padding: 5px;
+}
+.patchnotes {
+    margin: 10px 0px 10px 0px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 80%;
+    height: 250px;
+    overflow: hidden;
+    background-color: #f8f8f8;
+}
+.patchnotes:hover {
+    background-color: #f0f0f0;
+}
+.patch-zdjecie-container {
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+.krotki-opis-patcha-container {
+    float: right;
+    height: 100%;
+    width: 50%;
+}
+.patch-zdjecie {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+}
+.krotki-opis-patcha {
+    padding-right: 5px;
 }
