@@ -1,4 +1,4 @@
-[Strona](https://www.example.com)
+[Strona](https://paluzki.github.io/Projekt-na-infe/)
 
 # To do:
  - dodać treść i formularz
