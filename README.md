@@ -1,4 +1,4 @@
-<a href="https://paluzki.github.io/Projekt-na-infe/" target="_blank">Strona</a>
+https://paluzki.github.io/Projekt-na-infe
 
 
 # To do:
