@@ -1,54 +1,58 @@
+:root {
+    --zolty: #FFF200;
+    --szary1: #202020;
+    --szary2: #2f2f2f;
+}
 body {
+    color: var(--zolty);
     font: 16px/1.5em "Segoe UI",sans-serif;
+    background-color: var(--zolty);
+    background-image: url(piorun.png);
 }
 .main-container {
-    position: relative;
+    position: absolute;
+    top: 0px;
     left: 50%;
     transform: translate(-50%,0);
     width: 80%;
+    min-height: 100%;
+    background-color: black;
+}
+.top,.center,.footer,#powitajlo,.autorzy-container {
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 100%;
+    position: relative;
+    margin: 10px;
 }
 .top {
-    left: 50%;
-    transform: translate(-50%,0);
     height: 150px;
-    width: 100%;
-    border: 2px solid black;
-    position: relative;
-    margin: 10px;
 }
 .center {
-    left: 50%;
-    transform: translate(-50%,0);
     height: fit-content;
-    width: 100%;
-    border: 2px solid black;
-    position: relative;
-    margin: 10px;
 }
 .footer {
-    left: 50%;
-    transform: translate(-50%,0);
     height: fit-content;
-    width: 100%;
-    border: 2px solid black;
-    position: relative;
-    margin: 10px;
 }
 .logo-container {
     width: 100%;
     height: 60%;
     overflow: hidden;
 }
-
 #logo {
     left: 50%;
     transform: translate(-50%,0);
     position: relative;
-    width: 100%;
+    
     height: 100%;
 }
 #powitajlo {
     text-align: center;
+    color: var(--zolty);
+    width: 80%;
+    padding: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
+    background-color: var(--szary1);
 }
 .patchnotes {
     margin: 10px 0px 10px 0px;
@@ -58,12 +62,15 @@ body {
     width: 80%;
     height: 250px;
     overflow: hidden;
-    background-color: #f8f8f8;
-    color: black;
+    background-color: var(--szary1);
+    color: var(--zolty);
+    
 }
 .patchnotes:hover {
-    background-color: #f0f0f0;
+    /*background-color: #202020;*/
+    background-color: var(--szary2);
 }
+
 .patch-zdjecie-container {
     float: left;
     height: 100%;
@@ -86,11 +93,20 @@ body {
 .krotki-opis-patcha {
     padding-right: 5px;
 }
+.autorzy-container {
+    width: 80%;
+    background-color: #202020;
+    margin: 10px 0px 10px 0px;
+}
 .autorzy {
+    padding: 5px;
     text-align: center;
     font-size: 14px;
     font-weight: lighter;
 }
 .patchnotes-link:visited, .patchnotes-link:active {
-    color: black;
+    color: var(--zolty);
+}
+.patchnotes-link:active {
+    text-decoration: 1px underline var(--zolty);
 }
