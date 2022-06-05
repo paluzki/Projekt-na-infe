@@ -6,7 +6,7 @@
 body {
     color: var(--zolty);
     font: 16px/1.5em "Segoe UI",sans-serif;
-    background-color: var(--zolty);
+    background-color: black;
     background-image: url(piorun.png);
 }
 .main-container {
@@ -104,9 +104,7 @@ body {
     font-size: 14px;
     font-weight: lighter;
 }
-.patchnotes-link:visited, .patchnotes-link:active {
+.patchnotes-link {
     color: var(--zolty);
-}
-.patchnotes-link:active {
     text-decoration: 1px underline var(--zolty);
 }
