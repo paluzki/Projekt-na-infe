@@ -35,17 +35,18 @@ body {
     height: fit-content;
 }
 .logo-container {
-    width: 100%;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%,0);
+    position: relative;
     height: 60%;
     overflow: hidden;
 }
 #logo {
-    left: 50%;
-    transform: translate(-50%,0);
-    position: relative;
-    
     height: 100%;
+    float: left;
 }
+
 #powitajlo {
     text-align: center;
     color: var(--zolty);
@@ -107,4 +108,26 @@ body {
 .patchnotes-link {
     color: var(--zolty);
     text-decoration: 1px underline var(--zolty);
+}
+.toolbar {
+    margin-left: 5px;
+    height: fit-content;
+    width: fit-content;
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.button {
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    height: 100%;
+    color: var(--zolty);
+    margin-right: 10px;
+    font-size: 1.25em;
+}
+.button:hover {
+    background-color: var(--szary2);
 }
