@@ -1,0 +1,20 @@
+body {
+    background-color:black;
+    text-align: center;
+    font: 16px/1.5em "Secular one",sans-serif;
+    color: #FFF200;
+}
+
+a {
+    text-decoration: underline white 5px;
+    color: white;
+}
+.podziekowania {
+    font-size: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: fit-content;
+    
+}

@@ -1,0 +1,27 @@
+body {
+	font: 30px/1.5em "Secular one",sans-serif;
+	margin: 0;
+	background-color: black;
+	color: #FFF200;
+	text-align: center;
+}
+
+.top {
+	font-size: 40px;
+	background-color: #252525;
+	width: 100%;
+	padding: 0;
+	overflow: hidden;
+	display: box;
+}
+
+form {
+	padding: 5px;
+
+}
+textarea, input {
+	font: inherit;
+}
+textarea {
+	width: 80%;
+}
