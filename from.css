@@ -4,6 +4,7 @@ body {
 	background-color: black;
 	color: #FFF200;
 	text-align: center;
+	
 }
 
 .top {
@@ -21,7 +22,10 @@ form {
 }
 textarea, input {
 	font: inherit;
+	font-size: 20px;
 }
 textarea {
-	width: 80%;
+	width: 50%;
+	height: 100px;
 }
+

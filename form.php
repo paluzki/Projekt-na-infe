@@ -15,7 +15,7 @@
 	<div class="main">
 	<form action="wyniki.php" method="post">
 	<div>
-		<br>Twój e-mail:<br><input type="text" name="ema" required>
+		Twój Pseudonim:<br><input type="text" name="ema" required>
 		</div>
 	<div>
 		<br>Czy jesteś zadowolony z naszego serwisu?<br><textarea rows="3"  name="Q1"></textarea>
@@ -31,11 +31,11 @@
 		</div>
 	<div>
 		<br>Czy wsparłbyś/abyś naszą grupę finansowo gdyby była taka opcja?<br>
-		<input type="radio" name="Q5">Tak
-		<input type="radio" name="Q5">Nie
+		<input type="radio" name="Q5" value="tak">Tak
+		<input type="radio" name="Q5" value="nie">Nie
 		</div>
 	<div>	
-		<br><input type="submit" name="Submit">
+		<input type="submit" name="Submit">
 		</div>
 		</div>
 </body>
