@@ -181,3 +181,48 @@ h1,h2,h3,h4,h5,h6 {
 a {
     text-decoration: none;
 }
+.spis-tresci-container {
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    overflow: hidden;
+    background-color: var(--szary1);
+    
+}
+
+.spis-tresci-link {
+    display: block;
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    color: #e0e0e0;
+    text-decoration: underline solid #e0e0e0 2px;
+}
+.spis-tresci-link:hover, .spis-tresci-link:active {
+    color: white;
+    text-decoration: underline solid white 2px;
+}
+.paragraf {
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    overflow: hidden;
+    background-color: var(--szary1);
+    margin: 10px 0 10px 0;
+    
+}
+.naglowek {
+    text-align: center;
+}
+.tekst {
+    text-align: justify;
+    padding: 15px;
+    font: 16px/1.7em "Secular one",sans-serif;
+}
+.tekst #pozdrowienie {
+    font-weight: bold;
+    font-size: 2em;
+}
